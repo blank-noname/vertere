@@ -1,0 +1,61 @@
+<ngb-carousel *ngIf="images" >
+	<ng-template ngbSlide>
+		<div class="picsum-img-wrapper text-center">
+			<img [src]="images[0]" alt="Random first slide"  height="300" width="700"/>
+		</div>
+		<div class="carousel-caption text-center text-info">
+			<h3>We are Available Nationwide!!</h3>
+			
+		</div>
+	</ng-template>
+	<ng-template ngbSlide>
+		<div class="picsum-img-wrapper text-center">
+			<img [src]="images[1]" alt="Random second slide" height="300" width="700"/>
+		</div>
+		<div class="carousel-caption text-center text-info">
+			<h3>Shop Now in your&nbsp; Nearest Drugstore!!!</h3>
+			
+		</div>
+	</ng-template>
+</ngb-carousel>
+
+<h1 class="text-center pt-5">We are Available Nationwide!!</h1>
+<h2 class="text-center pt-2 ">Shop Now in your&nbsp; Nearest Drugstore!!!</h2>
+
+<section class="u-align-center u-clearfix u-section-2 " id="sec-3dad">
+  <div class="container-fluid">
+    <h1 class="text-center pt-2 text-info">Where to Buy Glam Beauty Products Near in Your Area!!</h1>
+    <div class="col col-sm-12 ">
+      <table class="table text-primary table-striped">
+        <tbody class="pt-2 ">
+          <tr scope="row">
+            <td >Indang Mercury Drugstore</td>
+            <td >Star Mall</td>
+            <td >SM Dasmarinas</td>
+          </tr>
+          <tr scope="row">
+            <td>Robinson Cavite</td>
+            <td >Sm Molino</td>
+            <td >Mall of Asia</td>
+          </tr>
+          <tr scope="row">
+            <td >SM Quezon</td>
+            <td >Sm IloIlo</td>
+            <td >SM Rosario</td>
+          </tr>
+          <tr scope="row">
+            <td >SM Manila</td>
+            <td>SM Batanggas</td>
+            <td >SM Taguig</td>
+          </tr>
+          <tr scope="row">
+            <td >SM Alabang</td>
+            <td >SM Laguna</td>
+            <td >Robinson Dasma</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+

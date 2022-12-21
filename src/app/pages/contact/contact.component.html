@@ -1,0 +1,40 @@
+<section class="m-0 ">
+  <ngb-carousel *ngIf="images" >
+    <ng-template ngbSlide>
+      <div class="picsum-img-wrapper text-center m-0 ">
+        <img [src]="images[0]" alt="Random first slide"  height="600" width="1000" />
+      </div>
+
+    </ng-template>
+    <ng-template ngbSlide>
+      <div class="picsum-img-wrapper text-center">
+        <img [src]="images[1]" alt="Random second slide" height="600" width="1000"/>
+      </div>
+    </ng-template>
+  </ngb-carousel>
+</section>
+
+<section class="p-5 bg-green">
+  <div class="container ">
+    <div class="container-fluid row ">
+      <div class="column text-center p-5">
+        <h1 class="u-text-custom-color-1">Contact Us</h1>
+                  <p class="u-text u-text-2">Our mailing address is: <br>Indang, Cavite Philippines<br>Phone: 705-742-3221 
+                  </p>
+      </div>
+      <div class="column text-center">
+        <p class="h4 py-2">Great vision without great people is irrelevant. Let's work together.</p>
+        <div>
+          <input type="name" placeholder="Enter your Name" id="name"  class="form-control my-2" required="">
+          <input type="email" placeholder="Enter your Valid Email" id="name"  class="form-control " required="">
+          <textarea class="form-control my-2"  rows="3"></textarea>
+          <button type="button" class="btn btn-success">Submit</button>
+        </div>
+      </div>
+
+      
+        
+    </div>
+  </div>
+</section> 
+

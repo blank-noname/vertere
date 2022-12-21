@@ -1,0 +1,12 @@
+
+.image-properties {
+    height: 1000px;
+    width: 1050px;
+}
+
+.u-section-3 {
+    margin: 0;
+    padding: 0;
+    background-image:  url("/assets/images/p6.png");
+    background-repeat: no-repeat;
+  }
